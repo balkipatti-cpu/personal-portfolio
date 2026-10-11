@@ -261,7 +261,11 @@ font-size: 1rem;
 
 @media (max-width:768px) {
 
+body,html{
 
+	overflow-x:hidden;
+	overflow-y:auto;
+}
 	.header{
 		position: relative;
 	}
